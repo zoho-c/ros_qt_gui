@@ -12,7 +12,7 @@
 #include <QtGui>
 #include <QMessageBox>
 #include <iostream>
-#include "../include/ros_qt_demo/main_window.hpp"
+#include "../include/mmwave_mappping_by_zhouhao/main_window.hpp"
 
 /*****************************************************************************
 ** Namespaces

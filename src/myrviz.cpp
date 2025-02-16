@@ -10,7 +10,7 @@
 #include "rviz/render_panel.h"
 #include "rviz/display.h"
 
-#include "../include/ros_qt_demo/myrviz.h"
+#include "../include/mmwave_mappping_by_zhouhao/myrviz.h"
 
 // BEGIN_TUTORIAL
 // Constructor for MyViz.  This does most of the work of the class.
@@ -30,7 +30,7 @@ MyViz::MyViz( QWidget* parent )
   QSlider* cell_size_slider = new QSlider( Qt::Horizontal );
   cell_size_slider->setMinimum( 1 );
   cell_size_slider->setMaximum( 100 );
-  QLabel* Topic=new QLabel("TOPIC:");
+  QLabel* Topic=new QLabel("Topic:");
   QLineEdit* Topic_text=new QLineEdit();
   QLabel* Size=new QLabel("Cloud Size");
   QSpinBox* size=new QSpinBox();
@@ -79,7 +79,8 @@ MyViz::MyViz( QWidget* parent )
   map_point_->subProp("Topic")->setValue("/pose_graph/octree");
   map_point_->subProp("Style")->setValue("Points");
   map_point_->subProp("Size (Pixels)")->setValue("2");
-  map_point_->subProp("Color Transformer")->setValue("Intensity");
+  map_point_->subProp("Color Transformer")->setValue("AxisColor");
+  map_point_->subProp("Axis")->setValue("Z");
   map_point_->subProp("Invert Rainbow")->setValue("true");
   map_point_->subProp("Decay Time")->setValue("1");
 

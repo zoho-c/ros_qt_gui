@@ -3,7 +3,7 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.0)
-project(ros_qt_demo)
+project(mmwave_mappping_by_zhouhao)
 #add
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 ##############################################################################
@@ -36,7 +36,7 @@ catkin_package()
 
 file(GLOB QT_FORMS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ui/*.ui)
 file(GLOB QT_RESOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} resources/*.qrc)
-file(GLOB_RECURSE QT_MOC RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS include/ros_qt_demo/*.hpp *.h)
+file(GLOB_RECURSE QT_MOC RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS include/mmwave_mappping_by_zhouhao/*.hpp *.h)
 
 #change
 QT5_ADD_RESOURCES(QT_RESOURCES_CPP ${QT_RESOURCES})
@@ -53,7 +53,7 @@ file(GLOB_RECURSE QT_SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINK
 # Binaries
 ##############################################################################
 
-add_executable(ros_qt_demo ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
-target_link_libraries(ros_qt_demo ${QT_LIBRARIES} ${catkin_LIBRARIES})
-install(TARGETS ros_qt_demo RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+add_executable(mmwave_mappping_by_zhouhao ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
+target_link_libraries(mmwave_mappping_by_zhouhao ${QT_LIBRARIES} ${catkin_LIBRARIES})
+install(TARGETS mmwave_mappping_by_zhouhao RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 

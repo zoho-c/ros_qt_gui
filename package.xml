@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package>
-  <name>ros_qt_demo</name>
+  <name>mmwave_mappping_by_zhouhao</name>
   <version>0.1.0</version>
   <description>
 
-     ros_qt_demo
+     mmwave_mappping_by_zhouhao
 
   </description>
   <maintainer email="chengyangkj@qq.com">chengyangkj</maintainer>
   <author>chengyangkj</author>
   <license>BSD</license>
-  <!-- <url type="bugtracker">https://github.com/chengyangkj/ros_qt_demo/issues</url> -->
-  <!-- <url type="repository">https://github.com/chengyangkj/ros_qt_demo</url> -->
+  <!-- <url type="bugtracker">https://github.com/chengyangkj/mmwave_mappping_by_zhouhao/issues</url> -->
+  <!-- <url type="repository">https://github.com/chengyangkj/mmwave_mappping_by_zhouhao</url> -->
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>qt_build</build_depend>

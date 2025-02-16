@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <ros/ros.h>
-#include "../include/ros_qt_demo/myrviz.h"
+#include "../include/mmwave_mappping_by_zhouhao/myrviz.h"
 
 int main(int argc, char **argv)
 {

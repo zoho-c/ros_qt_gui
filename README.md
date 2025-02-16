@@ -1,4 +1,4 @@
-# ros_qt_demo
+# mmwave_mappping_by_zhouhao
 
 ## 更改功能包名称
 下载此包或者克隆本包到自己的工作空间src目录下
